@@ -1,0 +1,75 @@
+- The difference between Abstract class Vs Interface 
+	-both  
+		-are not fully implemented
+		-can't take direct instance 
+		-can take indirect instance, when taking reference from abstract class to the concrete
+			-example
+static void Print(Person P)// will not pass
+			// the object of abstract
+		// but object of the concrete
+{
+	Console.WriteLine();
+}
+
+static Person Print(Person P)// will not return
+			// the object of abstract
+		// but object of the concrete
+	return new Employee();
+}
+
+static void Main()
+{
+	Person E = new Employee();
+	Print(E);
+}
+
+
+
+
+		-can take indirect instance, when taking reference from interface to class implement that interface
+			-example
+static void Print(IFly F)// will not pass
+			// the object of interface 
+		// but object of classes implement that interface
+{
+	Console.WriteLine();
+}
+
+static IFly Print(IFly F)// will not return
+			// the object of interface 
+		// but object of classes implement that interface
+{
+	return new Bird();
+}
+
+static void Main()
+{
+	IFly B = new Bird();
+	Print(B);
+}
+	
+
+
+	- Abstract class 
+		- May be have some abstract methods or not
+		- Is inheritance & implementation
+
+	-Interface 
+		- Is implementation only
+		- Is a contract 
+		- Difference between Interface implementation before & after c#8
+			-Before:
+				- all access modifiers of methods are public (can't change or remove it)
+				- methods has no implementation
+			-After:
+				- all access modifiers can be used except(private), can be removed
+				- methods may be has implemenation or not
+		-Implicit & Explicit Implementation
+			-Implicit
+				- implement methods from interface normally
+				- call the method by it's name only
+			-Explicit 
+				- used when a class implement 2 interfaces have the same name of method or methods
+				- call the method by InterfaceName.MethodName 
+	
+	

@@ -1,0 +1,40 @@
+1. Value Type vs. Reference Type  
+   1. Struct is a value type  
+      - Default behavior is copied by value: changing in the object will not affect the original.  
+   2. Class is a reference type  
+      - Default behavior is copied by reference: stored in the heap, and changes in the object will affect the original.  
+
+2. Memory Allocation  
+   1. Struct  
+      - Stored in the stack: stored in a clear and organized place.  
+      - Performance is better than a class.  
+   2. Class  
+      - Stored in the heap: stored in an unorganized place.  
+      - Performance is less than a struct because of heap memory management.  
+
+3. Inheritance  
+   1. Struct: Doesn’t support inheritance.  
+   2. Class: Supports inheritance.  
+
+4. Default Constructor  
+   - Struct  
+     - Has a default constructor: even if a parameterized constructor is created, the default still exists and is removed from the stack once its scope is finished.  
+   - Class  
+     - Has a default constructor: once a parameterized constructor is created, the default is deleted.  
+
+5. Destructor  
+   - Struct: Does not support destructors.  
+   - Class: A destructor exists, and the object is removed by the garbage collector (GC) when memory is full.  
+
+6. Nullability  
+   1. Struct: Cannot be null because it is a value type.  
+   2. Class: May be null because it is a reference type.  
+
+7. Default Access Modifiers  
+   1. Struct  
+      - All fields are private by default.  
+      - Can use: public, private, internal.  
+   2. Class  
+      - All fields are private by default.  
+      - The class is internal by default.  
+      - Can use: public, private, internal, protected, protected internal.  

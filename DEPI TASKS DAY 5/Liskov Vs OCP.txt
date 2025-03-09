@@ -1,0 +1,83 @@
+-OCP "Open / Closed Principle" 
+	- A class, module, or function should be open for extension but closed for modification.
+	- Goal: Allow the addition of new functionality without changing existing code, thus reducing the risk of introducing bugs,
+		through → inheritance, polymorphism & abstraction
+	- Example :
+public abstract class Shape {
+    public abstract void Draw();
+}
+
+public class Circle : Shape {
+    public override void Draw() {
+        Console.WriteLine("Drawing a Circle");
+    }
+}
+
+public class Rectangle : Shape {
+    public override void Draw() {
+        Console.WriteLine("Drawing a Rectangle");
+    }
+}
+
+-LSP "Liskov Substitution Principle"
+	- All subtypes must be substitutable for their base types without altering the correctness the program
+	- Ensure that derived classes preserve the behavior of the base class, 
+		maintaining correctness and consistency when replacing a base class object with a derived class object.
+	-Example :
+
+public class PaymentProcessor {
+    public virtual void ProcessPayment(decimal amount) {
+        Console.WriteLine($"Processing payment of {amount:C}");
+    }
+
+    public virtual void RefundPayment(decimal amount) {
+        Console.WriteLine($"Refunding payment of {amount:C}");
+    }
+}
+
+public class CreditCardProcessor : PaymentProcessor {
+    public override void ProcessPayment(decimal amount) {
+        Console.WriteLine($"Processing credit card payment of {amount:C}");
+    }
+
+    public override void RefundPayment(decimal amount) {
+        Console.WriteLine($"Refunding credit card payment of {amount:C}");
+    }
+}
+
+public class CryptoProcessor : PaymentProcessor { // substitutable with PaymentProcessor in ProcessPayment only
+						 // because it with RefundPayment through an exception and this is an unexpected behavior
+						// then this violates LSP
+    public override void ProcessPayment(decimal amount) {
+        Console.WriteLine($"Processing cryptocurrency payment of {amount:C}");
+    }
+
+    public override void RefundPayment(decimal amount) {
+        throw new NotSupportedException("Cryptocurrency payments cannot be refunded.");
+    }
+}
+
+//to apply LSP
+public interface IPaymentProcessor {
+    void ProcessPayment(decimal amount);
+}
+
+public interface IRefundablePaymentProcessor : IPaymentProcessor {
+    void RefundPayment(decimal amount);
+}
+
+public class CreditCardProcessor : IRefundablePaymentProcessor {
+    public void ProcessPayment(decimal amount) {
+        Console.WriteLine($"Processing credit card payment of {amount:C}");
+    }
+
+    public void RefundPayment(decimal amount) {
+        Console.WriteLine($"Refunding credit card payment of {amount:C}");
+    }
+}
+
+public class CryptoProcessor : IPaymentProcessor {
+    public void ProcessPayment(decimal amount) {
+        Console.WriteLine($"Processing cryptocurrency payment of {amount:C}");
+    }
+}

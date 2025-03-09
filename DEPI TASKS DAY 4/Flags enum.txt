@@ -1,0 +1,80 @@
+Flags enum
+- make the enum variable store many elements
+- to define the enum → flag
+	- must write [flags] above the enum
+	- give the elements value sequentialy → 2^n to avoid any contradiction 
+-how it works ? >> BitWise flags : depends on bits
+ BitWise Operations (| , & , ~ , ^)
+ 
+- BitWise OR : combine 2 flags  
+   internal class Program 
+   {
+       [Flags]
+       public enum WeekDays 
+       {
+           None =               0b_0000_0000,//0
+           Saturday =           0b_0000_0001,//1,
+           Sunday =             0b_0000_0010,//2,
+           Monday =             0b_0000_0100,//4,
+           Tuesday =            0b_0000_1000,//8,
+           Wednesday =          0b_0001_0000,//16,
+           Thursday =           0b_0010_0000,//32,
+           Friday =             0b_0100_0000,//64
+       }
+
+       public static void Main()
+       {
+           WeekDays WeekEnd = WeekDays.Friday | WeekDays.Saturday;
+            //0b_0100_0000
+            //     |
+            //0b_0000_0001
+            //     =
+            //0b_0100_0001
+
+           WeekDays Days = WeekDays.Saturday | WeekDays.Sunday;
+           // 0b_0000_0001
+           //     |
+           // 0b_0000_0010
+           //     =
+           // 0b_0000_0011
+           
+           
+           // HasFlag method
+            var day = WeekDays.Fri | WeekDays.Sat;
+            if (day.HasFlag(WeekEnd))
+                Console.WriteLine("That day is your week end !");
+       }
+   }
+
+
+- And 
+	 public static void Main()
+        {
+            // & : BitWise AND : take the common of TOW variables
+
+            WeekDays W1 = WeekDays.Friday | WeekDays.Saturday | WeekDays.Sunday;
+            WeekDays W2 = WeekDays.Saturday | WeekDays.Sunday | WeekDays.Monday;
+            Console.WriteLine(W1 & W2); // will display Saturday & Sunday
+        }
+
+
+- Except ~
+	Remove the falg element 
+
+	 public static void Main()
+        {
+            WeekDays W1 = WeekDays.Friday | WeekDays.Saturday | WeekDays.Sunday;
+            WeekDays W2 = W1 ~ 	W1.Sunday;
+            Console.WriteLine(W2); // will display Friday & Saturday
+        }
+
+- Toggle ^
+	Remove the flag element if exist, add it if not exist 
+
+	 public static void Main()
+        {
+	    WeekDays W1 = WeekDays.Friday | WeekDays.Saturday | WeekDays.Sunday;
+            WeekDays W2 = W1 ^ WeekDays.Saturday; // remove Saturday
+            WeekDays W3 = W2 ^ WeekDays.Saturday; // add Saturday
+            Console.WriteLine(W1 & W2); // will display Saturday & Sunday
+        }
