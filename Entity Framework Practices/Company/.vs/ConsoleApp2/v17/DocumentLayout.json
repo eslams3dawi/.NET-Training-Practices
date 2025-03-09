@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\configurations\\employeeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:configurations\\employeeconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227131138_ADDIndexSalaryANN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250227131138_ADDIndexSalaryANN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227124944_AddIndexForSalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250227124944_AddIndexForSalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\models\\deptproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:models\\deptproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\models\\empaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:models\\empaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\migrations\\20250227123305_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:migrations\\20250227123305_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|c:\\users\\dell\\desktop\\courses\\backend\\depi\\technical\\c#\\projects\\consoleapp2\\migrations\\20250227122124_deptreadonlytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC7B4495-C5A6-4F56-B846-FA51BA2B5F3C}|ConsoleApp2.csproj|solutionrelative:migrations\\20250227122124_deptreadonlytrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 82,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Configurations\\EmployeeConfigurations.cs",
+              "RelativeDocumentMoniker": "Configurations\\EmployeeConfigurations.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Configurations\\EmployeeConfigurations.cs",
+              "RelativeToolTip": "Configurations\\EmployeeConfigurations.cs",
+              "ViewState": "AgIAAAcAAABAMDMzMzMZwA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:55:51.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:14:57.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250227131138_ADDIndexSalaryANN.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227131138_ADDIndexSalaryANN.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250227131138_ADDIndexSalaryANN.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227131138_ADDIndexSalaryANN.cs",
+              "RelativeToolTip": "Migrations\\20250227131138_ADDIndexSalaryANN.cs",
+              "ViewState": "AgIAAAYAAAAALjMzMzMLwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T13:11:38.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250227124944_AddIndexForSalary.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227124944_AddIndexForSalary.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250227124944_AddIndexForSalary.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227124944_AddIndexForSalary.cs",
+              "RelativeToolTip": "Migrations\\20250227124944_AddIndexForSalary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:49:44.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeptProject.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\DeptProject.cs",
+              "RelativeDocumentMoniker": "Models\\DeptProject.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\DeptProject.cs",
+              "RelativeToolTip": "Models\\DeptProject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:44:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmpAddress.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\EmpAddress.cs",
+              "RelativeDocumentMoniker": "Models\\EmpAddress.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\EmpAddress.cs",
+              "RelativeToolTip": "Models\\EmpAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:44:07.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAUAAAAwMjMzMzMrwAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:42:37.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:43:16.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250227123305_ReadOnly.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227123305_ReadOnly.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250227123305_ReadOnly.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227123305_ReadOnly.cs",
+              "RelativeToolTip": "Migrations\\20250227123305_ReadOnly.cs",
+              "ViewState": "AgIAAAQAAAAA//////8vwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:33:05.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Department.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Models\\Department.cs",
+              "RelativeToolTip": "Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:30:05.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250227122124_DeptReadOnlyTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227122124_DeptReadOnlyTrigger.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250227122124_DeptReadOnlyTrigger.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Migrations\\20250227122124_DeptReadOnlyTrigger.cs",
+              "RelativeToolTip": "Migrations\\20250227122124_DeptReadOnlyTrigger.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABsPQkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:21:24.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompanyContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\CompanyContext.cs",
+              "RelativeDocumentMoniker": "CompanyContext.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\CompanyContext.cs",
+              "RelativeToolTip": "CompanyContext.cs",
+              "ViewState": "AgIAAAgAAAAANjMzMzMrwGEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:11:17.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Courses\\BackEnd\\DEPI\\Technical\\C#\\Projects\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T11:51:55.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
