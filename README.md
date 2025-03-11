@@ -13,7 +13,9 @@ The goal is to document my progress, enhance understanding, and make it easier t
 
 ✅ **Entity Framework Practices** (Hands-on exercises on EF Core & ORM concepts)  
 
-✅ **LINQ Practices** (Implementations and exercises on LINQ & Lambda Expressions)  
+✅ **LINQ Practices** (Implementations and exercises on LINQ & Lambda Expressions) 
+
+✅ **CRUD Operations** (Do simple CREATE, READ, UPDATE & DELETED operations on Pharamcy Database Using C#, LINQ & Entity Framework) 
 
 📌 _This repository will be updated with more exercises over time._  
 
